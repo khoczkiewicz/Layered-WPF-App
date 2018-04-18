@@ -1,0 +1,15 @@
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\bin\Debug\Hoczkiewicz.Audi.exe.config
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\bin\Debug\Hoczkiewicz.Audi.exe
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\bin\Debug\Hoczkiewicz.Audi.pdb
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Application.csprojResolveAssemblyReference.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\MainWindow.g.cs
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\App.g.cs
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Hoczkiewicz.Audi_MarkupCompile.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Hoczkiewicz.Audi_MarkupCompile.lref
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\MainWindow.baml
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Hoczkiewicz.Audi.g.resources
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Hoczkiewicz.Audi.Properties.Resources.resources
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Application.csproj.GenerateResource.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Application.csproj.CoreCompileInputs.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Hoczkiewicz.Audi.exe
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Hoczkiewicz.Audi.pdb
