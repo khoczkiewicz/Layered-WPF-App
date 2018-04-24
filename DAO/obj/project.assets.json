@@ -29,6 +29,9 @@
       "CORE/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "INTERFACES": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CORE.dll": {}
         },
@@ -39,9 +42,6 @@
       "INTERFACES/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "CORE": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/INTERFACES.dll": {}
         },

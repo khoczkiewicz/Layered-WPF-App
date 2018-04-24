@@ -53,9 +53,9 @@
       <Project>{020290ff-057c-46c9-87b2-ef3d5ea3901c}</Project>
       <Name>BL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CORE\CORE.csproj">
-      <Project>{b672d797-09f7-419f-8597-690c96875999}</Project>
-      <Name>CORE</Name>
+    <ProjectReference Include="..\ClassLibrary1\INTERFACES.csproj">
+      <Project>{707ab4e3-b692-4b55-bdde-b39220bb4be0}</Project>
+      <Name>INTERFACES</Name>
     </ProjectReference>
     <ProjectReference Include="..\Hoczkiewicz.Audi\Application.csproj">
       <Project>{ae827fd2-374f-4345-908a-c2dc3f0b7b70}</Project>

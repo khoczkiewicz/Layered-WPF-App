@@ -2,15 +2,22 @@
 
 namespace Hoczkiewicz.Audi.INTERFACES
 {
-    public class INTERFACES
+    public class Interfaces
     {
         public interface IBL
         {
-            List<CORE.Audi> GetDataBase();
+            List<IAudi> GetDataBase();
         }
         public interface IDAO
         {
-            List<CORE.Audi> GetAudis();
+            List<IAudi> GetAudis();
+        }
+        public interface IAudi
+        {
+            string Type { get; set; }
+            int Model { get; set; }
+            int PS { get; set; }
+            int Price { get; set; }
         }
     }
 }

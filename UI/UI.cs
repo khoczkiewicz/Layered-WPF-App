@@ -1,19 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
 
 namespace Hoczkiewicz.Audi.UI
 {
     public class UI
     {
-        private static BL.BL bl = new BL.BL();
-        static void Main(string[] args)
+        private static BL.BL BusinessLogisticsLayer = new BL.BL();
+        public static void Main(string[] args)
         {
-            bl.GetDataBase().ForEach(delegate (CORE.Audi audi)
+            BusinessLogisticsLayer.GetDataBase().ForEach(delegate (IAudi Audi)
             {
-                Console.WriteLine(audi.ToString());
+                Console.WriteLine(value: Audi.ToString());
             });
             Console.ReadLine();
         }

@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
 
 namespace Hoczkiewicz.Audi.BL
 {
-    public class BL:INTERFACES.INTERFACES.IBL
+    public class BL:IBL
     {
-        private DAO.DAOMock dao = new DAO.DAOMock();
-        public List<CORE.Audi> GetDataBase()
+        private DAO.DAOMock DAODummy = new DAO.DAOMock();
+        public List<IAudi> GetDataBase()
         {
-            return dao.GetAudis();
+            return DAODummy.GetAudis();
         }
     }
 }

@@ -25,6 +25,9 @@
         }
       },
       "CORE/1.0.0": {
+        "dependencies": {
+          "INTERFACES": "1.0.0"
+        },
         "runtime": {
           "CORE.dll": {}
         }
@@ -39,9 +42,6 @@
         }
       },
       "INTERFACES/1.0.0": {
-        "dependencies": {
-          "CORE": "1.0.0"
-        },
         "runtime": {
           "INTERFACES.dll": {}
         }

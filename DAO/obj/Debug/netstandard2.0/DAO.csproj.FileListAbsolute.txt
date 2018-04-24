@@ -2,6 +2,8 @@ C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\DAO.dep
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\DAO.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\DAO.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\CORE.dll
+C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\INTERFACES.dll
+C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\INTERFACES.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\CORE.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\obj\Debug\netstandard2.0\DAO.csprojResolveAssemblyReference.cache
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\obj\Debug\netstandard2.0\DAO.csproj.CoreCompileInputs.cache
@@ -10,5 +12,3 @@ C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\obj\Debug\netstandard2.0\DAO.Ass
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\obj\Debug\netstandard2.0\DAO.csproj.CopyComplete
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\obj\Debug\netstandard2.0\DAO.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\obj\Debug\netstandard2.0\DAO.pdb
-C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\INTERFACES.dll
-C:\Users\root\source\repos\Hoczkiewicz.Audi\DAO\bin\Debug\netstandard2.0\INTERFACES.pdb
