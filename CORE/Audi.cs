@@ -8,7 +8,6 @@ namespace Hoczkiewicz.Audi.CORE
         private int _PS { get; set; }
         private int _Price { get; set; }
         private int _Model{ get; set; }
-        //private bool IsCar { get; set; }
 
         public string Type { get => _Type; set => _Type = value; }
         public int PS { get => _PS; set => _PS = value; }
@@ -22,7 +21,10 @@ namespace Hoczkiewicz.Audi.CORE
             _PS = PS;
             _Price = Price;
         }
-        
-        public override string ToString() => "Audi " + Type + Model + " has " + PS + "PS and costs " + Price + " euro.";
+
+        public override string ToString()
+        {
+            return "Audi " + Type + Model + " has " + PS + "PS and costs " + Price + " euro.";
+        }
     }
 }

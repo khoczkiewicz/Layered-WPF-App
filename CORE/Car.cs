@@ -1,15 +1,15 @@
 ﻿namespace Hoczkiewicz.Audi.CORE
 {
-    class Car : Audi
+    //Opposite to SUV "Car" is kind of limousine or hatchback.
+    public class Car : Audi
     {
         public Car(string Type, int Model, int PS, int Price) : base(Type, Model, PS, Price)
         {
-
         }
 
         public override string ToString()
         {
-            return base.ToString();
+            return "Audi " + (Type==""?"A":Type) + Model + " has " + PS + "PS and costs " + Price + " euro.";
         }
     }
 }
