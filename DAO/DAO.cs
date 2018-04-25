@@ -21,8 +21,10 @@ namespace Hoczkiewicz.Audi.DAO
     {
         private List<IAudi> Audis = new List<IAudi>()
         {
-            new CORE.Car("",1,88,67000),
-            new CORE.SUV("S",5,198,125000)
+            new CORE.SUV("",5,178,245000),
+            new CORE.SUV("RS",7,248,315000),
+            new CORE.Car("S",5,244,248000),
+            new CORE.Car("",8,355,589000)
         };
 
         public List<IAudi> GetAudis()
