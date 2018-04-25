@@ -1,12 +1,12 @@
 C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\bin\Debug\netstandard2.0\CORE.deps.json
 C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\bin\Debug\netstandard2.0\CORE.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\bin\Debug\netstandard2.0\CORE.pdb
-C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.csproj.CoreCompileInputs.cache
-C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.AssemblyInfoInputs.cache
-C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.AssemblyInfo.cs
-C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.dll
-C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\bin\Debug\netstandard2.0\INTERFACES.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\bin\Debug\netstandard2.0\INTERFACES.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.csprojResolveAssemblyReference.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.csproj.CoreCompileInputs.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.AssemblyInfoInputs.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.AssemblyInfo.cs
 C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.csproj.CopyComplete
+C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.dll
+C:\Users\root\source\repos\Hoczkiewicz.Audi\CORE\obj\Debug\netstandard2.0\CORE.pdb
