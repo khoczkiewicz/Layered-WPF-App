@@ -7,9 +7,7 @@ namespace Hoczkiewicz.Audi.DAO
     {
         private List<IAudi> Audis = new List<IAudi>()
         {
-            new CORE.Audi("RS",7,288,320000),
-            new CORE.Audi("A",5,170,210000),
-            new CORE.Audi("S",3,210,180000)
+            new CORE.Audi("",0,0,0) //Important template (?)
         };
 
         public List<IAudi> GetAudis()
@@ -21,10 +19,6 @@ namespace Hoczkiewicz.Audi.DAO
     {
         private List<IAudi> Audis = new List<IAudi>()
         {
-            new CORE.SUV("",5,178,245000),
-            new CORE.SUV("RS",7,248,315000),
-            new CORE.Car("S",5,244,248000),
-            new CORE.Car("",8,355,589000)
         };
 
         public List<IAudi> GetAudis()

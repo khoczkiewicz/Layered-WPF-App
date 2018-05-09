@@ -26,6 +26,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "CORE/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -207,6 +216,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Hoczkiewicz.Audi/Application.csproj",
+      "msbuildProject": "../Hoczkiewicz.Audi/Application.csproj"
+    },
     "CORE/1.0.0": {
       "type": "project",
       "path": "../CORE/CORE.csproj",
@@ -225,6 +239,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Application >= 1.0.0",
       "CORE >= 1.0.0",
       "DAO >= 1.0.0",
       "INTERFACES >= 1.0.0",
@@ -269,6 +284,9 @@
             },
             "C:\\Users\\root\\source\\repos\\Hoczkiewicz.Audi\\DAO\\DAO.csproj": {
               "projectPath": "C:\\Users\\root\\source\\repos\\Hoczkiewicz.Audi\\DAO\\DAO.csproj"
+            },
+            "C:\\Users\\root\\source\\repos\\Hoczkiewicz.Audi\\Hoczkiewicz.Audi\\Application.csproj": {
+              "projectPath": "C:\\Users\\root\\source\\repos\\Hoczkiewicz.Audi\\Hoczkiewicz.Audi\\Application.csproj"
             }
           }
         }

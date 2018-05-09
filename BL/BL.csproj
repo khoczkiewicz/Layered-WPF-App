@@ -8,6 +8,7 @@
     <ProjectReference Include="..\ClassLibrary1\INTERFACES.csproj" />
     <ProjectReference Include="..\CORE\CORE.csproj" />
     <ProjectReference Include="..\DAO\DAO.csproj" />
+    <ProjectReference Include="..\Hoczkiewicz.Audi\Application.csproj" />
   </ItemGroup>
 
 </Project>

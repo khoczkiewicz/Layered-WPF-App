@@ -2,11 +2,9 @@ C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\BL.deps.
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\BL.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\BL.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\CORE.dll
-C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\DAO.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\INTERFACES.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\INTERFACES.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\CORE.pdb
-C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\DAO.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\netstandard2.0\BL.csprojResolveAssemblyReference.cache
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\netstandard2.0\BL.csproj.CoreCompileInputs.cache
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\netstandard2.0\BL.AssemblyInfoInputs.cache
@@ -14,3 +12,8 @@ C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\netstandard2.0\BL.Assem
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\netstandard2.0\BL.csproj.CopyComplete
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\netstandard2.0\BL.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\netstandard2.0\BL.pdb
+C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\DAO.dll
+C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\DAO.pdb
+C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\Hoczkiewicz.Audi.exe
+C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\Hoczkiewicz.Audi.pdb
+C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\netstandard2.0\Hoczkiewicz.Audi.exe.config

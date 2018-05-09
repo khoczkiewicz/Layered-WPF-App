@@ -12,3 +12,4 @@ C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Applicati
 C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Application.csproj.CoreCompileInputs.cache
 C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Hoczkiewicz.Audi.exe
 C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Hoczkiewicz.Audi.pdb
+C:\Users\root\source\repos\Hoczkiewicz.Audi\Hoczkiewicz.Audi\obj\Debug\Application.csprojResolveAssemblyReference.cache
