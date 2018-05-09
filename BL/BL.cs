@@ -15,13 +15,27 @@ namespace Hoczkiewicz.Audi.BL
         public List<IAudi> GetDataBase()
         {
             var types = DAODummy.GetTypes();
-         
-            Type lateBindingType = DAODummy.GetType(types[0].ToString());
-            
-            var lateBind = Activator.CreateInstance(lateBindingType);
-            dao = (IDAO)lateBind;
+            Type lateBindingType = null;
 
-            return dao.GetAudis();
+            foreach (var t in DAODummy.GetTypes())
+            {
+                if (typeof(IDAO).IsAssignableFrom(t))
+                {
+                    lateBindingType = t;
+                    break;
+                }
+            }
+
+            if (lateBindingType != null)
+            {
+                var lateBind = Activator.CreateInstance(lateBindingType);
+                dao = (IDAO)lateBind;
+                return dao.GetAudis();
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
