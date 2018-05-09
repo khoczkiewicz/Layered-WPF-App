@@ -7,18 +7,7 @@ namespace Hoczkiewicz.Audi.DAO
     {
         private List<IAudi> Audis = new List<IAudi>()
         {
-            new CORE.Audi("",0,0,0) //Important template (?)
-        };
-
-        public List<IAudi> GetAudis()
-        {
-            return Audis;
-        }
-    }
-    public class DAOMock2 : IDAO
-    {
-        private List<IAudi> Audis = new List<IAudi>()
-        {
+            new CORE.Audi("",0,0,0)
         };
 
         public List<IAudi> GetAudis()
