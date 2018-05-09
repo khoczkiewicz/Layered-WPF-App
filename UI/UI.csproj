@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BL\BL.csproj">
-      <Project>{020290ff-057c-46c9-87b2-ef3d5ea3901c}</Project>
+      <Project>{56337aad-a61d-4088-afd3-1b60b03798d4}</Project>
       <Name>BL</Name>
     </ProjectReference>
     <ProjectReference Include="..\ClassLibrary1\INTERFACES.csproj">

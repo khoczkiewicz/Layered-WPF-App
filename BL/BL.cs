@@ -10,13 +10,13 @@ namespace Hoczkiewicz.Audi.BL
     public class BL : IBL
     {
         private IDAO dao;
-        private Assembly DAODummy2 = Assembly.UnsafeLoadFrom("C://DAO.dll");
-        
+        private Assembly DAODummy2 = Assembly.UnsafeLoadFrom(Properties.Settings.Default.filePath);
+
         public List<IAudi> GetDataBase()
         {
             Type lateBoundType = DAODummy2.GetType("Hoczkiewicz.Audi.DAO.DAOMock2"); //TODO Szukac po idao
 
-            foreach(var r in DAODummy2.GetTypes())
+            foreach (var r in DAODummy2.GetTypes())
             {
                 Console.WriteLine(r);
             }
