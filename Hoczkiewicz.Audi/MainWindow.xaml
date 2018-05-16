@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hoczkiewicz.Audi"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="171.818" Width="823.182" Name="Window1">
+
+    <DockPanel>
+        <Grid Width="792">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="493*"/>
+                <ColumnDefinition Width="299*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox x:Name="AudisList" Margin="0,0,86.636,0"
+                ItemsSource="{Binding Audis, ElementName=Window1}" SelectionChanged="AudisList_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="{}{0}{1}">
+                                    <Binding Path="Type"/>
+                                    <Binding Path="Model"/>
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.PS}"
+                HorizontalAlignment="Left" Height="23" Margin="475,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Grid.ColumnSpan="2"/>
+            <Label Content="PS" HorizontalAlignment="Left" Margin="421,52,0,0" VerticalAlignment="Top"/>
+            <Label Content="Price" HorizontalAlignment="Left" Margin="421,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.22,-0.804"/>
+            <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Price}"
+                HorizontalAlignment="Left" Height="23" Margin="475,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Grid.ColumnSpan="2"/>
+            <Label Content="Type" HorizontalAlignment="Left" Margin="419,6,0,0" VerticalAlignment="Top"/>
+            <TextBox  Text="{Binding ElementName=AudisList,Path=SelectedItem}"
+                HorizontalAlignment="Left" Height="23" Margin="475,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Grid.ColumnSpan="2"/>
+        </Grid>
+    </DockPanel>
 </Window>

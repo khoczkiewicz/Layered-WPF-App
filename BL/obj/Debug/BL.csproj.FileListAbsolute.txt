@@ -1,5 +1,4 @@
-C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
-C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\BL.dll.config
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\BL.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\BL.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\Microsoft.Win32.Primitives.dll
@@ -100,13 +99,12 @@ C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\System.Xml.XPath.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\CORE.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\DAO.dll
-C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\Hoczkiewicz.Audi.exe
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\INTERFACES.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\INTERFACES.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\CORE.pdb
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\DAO.pdb
-C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\Hoczkiewicz.Audi.pdb
-C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\bin\Debug\Hoczkiewicz.Audi.exe.config
+C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.csproj.CopyComplete
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.pdb

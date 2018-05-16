@@ -22,17 +22,5 @@ namespace Hoczkiewicz.Audi.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("DAO3.dll")]
-        public string filePath {
-            get {
-                return ((string)(this["filePath"]));
-            }
-            set {
-                this["filePath"] = value;
-            }
-        }
     }
 }

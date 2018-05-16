@@ -57,10 +57,6 @@
       <Project>{707ab4e3-b692-4b55-bdde-b39220bb4be0}</Project>
       <Name>INTERFACES</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Hoczkiewicz.Audi\Application.csproj">
-      <Project>{ae827fd2-374f-4345-908a-c2dc3f0b7b70}</Project>
-      <Name>Application</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
