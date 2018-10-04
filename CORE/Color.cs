@@ -8,7 +8,7 @@ namespace Hoczkiewicz.Audi.CORE
     {
         public enum CarColor
         {
-            Czarny, Bialy, Czerwony
+            Czarny, Biały, Czerwony
         }
     }
 }

@@ -16,15 +16,14 @@
                 <ColumnDefinition Width="300*"/>
                 <ColumnDefinition Width="100*"/>
             </Grid.ColumnDefinitions>
-            <ListBox x:Name="AudisList"
-                 SelectionChanged="AudisList_SelectionChanged" Grid.Column="0" ItemsSource="{Binding Audis}">
+            <ListBox x:Name="AudisList" SelectionChanged="AudisList_SelectionChanged" Grid.Column="0" ItemsSource="{Binding Audis, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedIndex="0">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock>
                             <TextBlock.Text>
                                 <MultiBinding StringFormat="{}{0}{1}">
-                                    <Binding  Path="Type"/>
-                                    <Binding  Path="Model"/>
+                                    <Binding  Path="Type"  Mode="TwoWay" UpdateSourceTrigger="PropertyChanged"/>
+                                    <Binding  Path="Model"  Mode="TwoWay" UpdateSourceTrigger="PropertyChanged"/>
                                 </MultiBinding>
                             </TextBlock.Text>
                         </TextBlock>
@@ -34,20 +33,21 @@
             <StackPanel Grid.Column="1">
                 <TextBlock>
                     <Label Content="PS"/>
-                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.PS}" />
+                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.PS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 </TextBlock>
                 <TextBlock>
                     <Label Content="Price"/>
-                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Price}" />
+                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 </TextBlock>
                 <TextBlock>
                     <Label Content="Type"/>
-                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Type}" />
+                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Type, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 </TextBlock>
                 <TextBlock>
                     <Label Content="Color"/>
-                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Color}" />
+                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Color, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 </TextBlock>
+                <Button Command="{Binding SaveCommand}">Save</Button>
             </StackPanel>
         </Grid>
     </DockPanel>

@@ -4,8 +4,8 @@
 
 namespace Hoczkiewicz.Audi.DAO
 {
-    using System.Collections.Generic;
     using System.Collections.ObjectModel;
+    using Hoczkiewicz.Audi.CORE;
     using static Hoczkiewicz.Audi.CORE.Audi;
     using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
 
@@ -13,9 +13,9 @@ namespace Hoczkiewicz.Audi.DAO
     {
         private readonly ObservableCollection<IAudi> audis = new ObservableCollection<IAudi>()
         {
-            new CORE.Car(string.Empty, 8, 268, 314000, CarColor.Czarny),
-            new CORE.SUV(string.Empty, 3, 122, 125000, CarColor.Czerwony),
-            new CORE.SUV("RS", 7, 388, 450000, CarColor.Bialy),
+            new Car(string.Empty, 8, 268, 314000, CarColor.Czarny),
+            new SUV(string.Empty, 3, 122, 125000, CarColor.Czerwony),
+            new SUV("RS", 7, 388, 450000, CarColor.Biały),
         };
 
         public ObservableCollection<IAudi> GetAudis()

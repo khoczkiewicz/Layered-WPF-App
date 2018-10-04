@@ -4,9 +4,10 @@
 
 namespace Hoczkiewicz.Audi.ViewModel
 {
-    using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.ComponentModel;
+    using System.Windows.Input;
+    using Hoczkiewicz.Audi.Utils;
     using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
 
     internal class MainWindowViewModel
@@ -14,10 +15,14 @@ namespace Hoczkiewicz.Audi.ViewModel
         private BL.BL businessLogisticsLayer = new BL.BL();
 
         private ObservableCollection<IAudi> audis;
+        private ICommand saveCommand;
+        private bool canExecute;
 
         public MainWindowViewModel()
         {
             this.Audis = this.BusinessLogisticsLayer.GetDataBase();
+
+            this.canExecute = true;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -41,6 +46,19 @@ namespace Hoczkiewicz.Audi.ViewModel
         }
 
         public BL.BL BusinessLogisticsLayer { get => this.businessLogisticsLayer; set => this.businessLogisticsLayer = value; }
+
+        public ICommand SaveCommand
+        {
+            get
+            {
+                return this.saveCommand ?? (this.saveCommand = new RelayCommand(() => this.SaveAction(), this.canExecute));
+            }
+        }
+
+        public void SaveAction()
+        {
+            // TODO
+        }
 
         public void SetPropertyChanged(string propertyName)
         {
