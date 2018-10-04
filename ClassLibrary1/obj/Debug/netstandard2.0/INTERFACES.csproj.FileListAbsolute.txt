@@ -1,8 +1,0 @@
-C:\Users\root\source\repos\Hoczkiewicz.Audi\ClassLibrary1\bin\Debug\netstandard2.0\INTERFACES.deps.json
-C:\Users\root\source\repos\Hoczkiewicz.Audi\ClassLibrary1\bin\Debug\netstandard2.0\INTERFACES.dll
-C:\Users\root\source\repos\Hoczkiewicz.Audi\ClassLibrary1\bin\Debug\netstandard2.0\INTERFACES.pdb
-C:\Users\root\source\repos\Hoczkiewicz.Audi\ClassLibrary1\obj\Debug\netstandard2.0\INTERFACES.csproj.CoreCompileInputs.cache
-C:\Users\root\source\repos\Hoczkiewicz.Audi\ClassLibrary1\obj\Debug\netstandard2.0\INTERFACES.AssemblyInfoInputs.cache
-C:\Users\root\source\repos\Hoczkiewicz.Audi\ClassLibrary1\obj\Debug\netstandard2.0\INTERFACES.AssemblyInfo.cs
-C:\Users\root\source\repos\Hoczkiewicz.Audi\ClassLibrary1\obj\Debug\netstandard2.0\INTERFACES.dll
-C:\Users\root\source\repos\Hoczkiewicz.Audi\ClassLibrary1\obj\Debug\netstandard2.0\INTERFACES.pdb

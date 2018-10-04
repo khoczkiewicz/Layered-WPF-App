@@ -1,44 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
-
+﻿// <copyright file="MainWindow.xaml.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace Hoczkiewicz.Audi
 {
+    using System.Collections.Generic;
+    using System.Windows;
+    using System.Windows.Controls;
+    using Hoczkiewicz.Audi.BL;
+    using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        public BL.BL BusinessLogisticsLayer = new BL.BL();
-        //public List<string> auta = new List<string>();
-        private List<IAudi> _audis;
-        public List<IAudi> Audis
-        {
-            get { return _audis; }
-            set { _audis = value; }
-        }
+        private BL.BL businessLogisticsLayer = new BL.BL();
+
+        // public List<string> auta = new List<string>();
+        private List<IAudi> audis;
+
         public MainWindow()
         {
-            Audis = BusinessLogisticsLayer.GetDataBase();
-            InitializeComponent();            
+            this.Audis = this.BusinessLogisticsLayer.GetDataBase();
+            this.InitializeComponent();
         }
+
+        public List<IAudi> Audis
+        {
+            get { return this.audis; }
+            set { this.audis = value; }
+        }
+
+        public BL.BL BusinessLogisticsLayer { get => this.businessLogisticsLayer; set => this.businessLogisticsLayer = value; }
 
         private void AudisList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
         }
     }
 }

@@ -108,3 +108,13 @@ C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.csproj.CoreCompileIn
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.csproj.CopyComplete
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.dll
 C:\Users\root\source\repos\Hoczkiewicz.Audi\BL\obj\Debug\BL.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\obj\Debug\BL.dll
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\obj\Debug\BL.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\bin\Debug\BL.dll.config
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\bin\Debug\BL.dll
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\bin\Debug\BL.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\bin\Debug\INTERFACES.dll
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\bin\Debug\INTERFACES.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\BL\obj\Debug\BL.csproj.CopyComplete

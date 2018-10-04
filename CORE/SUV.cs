@@ -1,18 +1,27 @@
-﻿namespace Hoczkiewicz.Audi.CORE
+﻿// <copyright file="SUV.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace Hoczkiewicz.Audi.CORE
 {
     public class SUV : Audi
     {
-        public SUV(string Type, int Model, int PS, int Price) : base(Type, Model, PS, Price)
+        public SUV(string type, int model, int ps, int price)
+            : base(type, model, ps, price)
         {
-            if (Type == "")
+            if (type == string.Empty)
+            {
                 this.Type = "Q";
+            }
             else
-                this.Type = Type + "Q";
+            {
+                this.Type = type + "Q";
+            }
         }
 
         public override string ToString()
         {
-            //return "Audi " + Type + "Q" + Model + " has " + PS + "PS and costs " + Price + " euro.";
+            // return "Audi " + Type + "Q" + Model + " has " + PS + "PS and costs " + Price + " euro.";
             return "SUV";
         }
     }

@@ -1,0 +1,9 @@
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\obj\Debug\CORE.csproj.CoreCompileInputs.cache
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\bin\Debug\CORE.dll
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\bin\Debug\CORE.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\bin\Debug\INTERFACES.dll
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\bin\Debug\INTERFACES.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\obj\Debug\CORE.csprojAssemblyReference.cache
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\obj\Debug\CORE.csproj.CopyComplete
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\obj\Debug\CORE.dll
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\CORE\obj\Debug\CORE.pdb

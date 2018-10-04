@@ -1,30 +1,40 @@
-﻿using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
+﻿// <copyright file="Audi.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace Hoczkiewicz.Audi.CORE
 {
-    public class Audi: IAudi
+    using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
+
+    public class Audi : IAudi
     {
-        private string _Type { get; set; }
-        private int _PS { get; set; }
-        private int _Price { get; set; }
-        private int _Model{ get; set; }
+        private string type;
 
-        public string Type { get => _Type; set => _Type = value; }
-        public int PS { get => _PS; set => _PS = value; }
-        public int Price { get => _Price; set => _Price = value; }
-        public int Model { get => _Model; set => _Model= value; }
+        private int ps;
 
-        public Audi(string Type,int Model,int PS,int Price)
+        private int price;
+
+        private int model;
+
+        public Audi(string type, int model, int ps, int price)
         {
-            _Type = Type;
-            _Model = Model;
-            _PS = PS;
-            _Price = Price;
+            this.type = type;
+            this.model = model;
+            this.ps = ps;
+            this.price = price;
         }
+
+        public string Type { get => this.type; set => this.type = value; }
+
+        public int PS { get => this.ps; set => this.ps = value; }
+
+        public int Price { get => this.price; set => this.price = value; }
+
+        public int Model { get => this.model; set => this.model = value; }
 
         public override string ToString()
         {
-            return "Audi " + Type + Model + " has " + PS + "PS and costs " + Price + " euro.";
+            return "Audi " + this.Type + this.Model + " has " + this.PS + "PS and costs " + this.Price + " euro.";
         }
     }
 }

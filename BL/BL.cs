@@ -1,24 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection;
-using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
-using System.Configuration;
-using static Hoczkiewicz.Audi.DAO.DAOMock;
-using BL.Properties;
+﻿// <copyright file="BL.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace Hoczkiewicz.Audi.BL
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Reflection;
+    using global::BL.Properties;
+    using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
+
     public class BL : IBL
     {
         private IDAO dao;
-        private Assembly DAODummy = Assembly.UnsafeLoadFrom(Settings.Default.filePath);
-        
+        private Assembly dAODummy = Assembly.UnsafeLoadFrom(Settings.Default.filePath);
+
+        public Assembly DAODummy { get => this.dAODummy; set => this.dAODummy = value; }
+
         public List<IAudi> GetDataBase()
         {
-            var types = DAODummy.GetTypes();
+            var types = this.DAODummy.GetTypes();
             Type lateBindingType = null;
 
-            foreach (var t in DAODummy.GetTypes())
+            foreach (var t in this.DAODummy.GetTypes())
             {
                 if (typeof(IDAO).IsAssignableFrom(t))
                 {
@@ -30,8 +34,8 @@ namespace Hoczkiewicz.Audi.BL
             if (lateBindingType != null)
             {
                 var lateBind = Activator.CreateInstance(lateBindingType);
-                dao = (IDAO)lateBind;
-                return dao.GetAudis();
+                this.dao = (IDAO)lateBind;
+                return this.dao.GetAudis();
             }
             else
             {

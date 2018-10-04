@@ -112,3 +112,16 @@ C:\Users\root\source\repos\Hoczkiewicz.Audi\UI\obj\Debug\UI.csproj.CoreCompileIn
 C:\Users\root\source\repos\Hoczkiewicz.Audi\UI\obj\Debug\UI.csproj.CopyComplete
 C:\Users\root\source\repos\Hoczkiewicz.Audi\UI\obj\Debug\UI.exe
 C:\Users\root\source\repos\Hoczkiewicz.Audi\UI\obj\Debug\UI.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\bin\Debug\UI.exe.config
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\bin\Debug\UI.exe
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\bin\Debug\UI.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\bin\Debug\BL.dll
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\bin\Debug\INTERFACES.dll
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\bin\Debug\BL.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\bin\Debug\BL.dll.config
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\bin\Debug\INTERFACES.pdb
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\obj\Debug\UI.exe
+C:\Users\khoczkiewicz\Desktop\Layered-WPF-App\UI\obj\Debug\UI.pdb
