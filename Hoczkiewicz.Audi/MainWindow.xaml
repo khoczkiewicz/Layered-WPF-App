@@ -1,0 +1,51 @@
+﻿<Window x:Class="Hoczkiewicz.Audi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hoczkiewicz.Audi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="600" Name="Window1">
+
+    <DockPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300*"/>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox x:Name="AudisList"
+                ItemsSource="{Binding Audis, ElementName=Window1}" SelectionChanged="AudisList_SelectionChanged" Grid.Column="0">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="{}{0}{1}">
+                                    <Binding Path="Type"/>
+                                    <Binding Path="Model"/>
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <StackPanel Grid.Column="1">
+                <TextBlock>
+                    <Label Content="PS"/>
+                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.PS}" />
+                </TextBlock>
+                <TextBlock>
+                    <Label Content="Price"/>
+                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Price}" />
+                </TextBlock>
+                <TextBlock>
+                    <Label Content="Type"/>
+                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Type}" />
+                </TextBlock>
+                <TextBlock>
+                    <Label Content="Color"/>
+                    <TextBox Text="{Binding ElementName=AudisList,Path=SelectedItem.Color}" />
+                </TextBlock>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>
