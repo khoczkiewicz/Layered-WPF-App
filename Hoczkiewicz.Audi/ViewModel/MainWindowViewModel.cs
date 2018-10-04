@@ -6,7 +6,10 @@ namespace Hoczkiewicz.Audi.ViewModel
 {
     using System.Collections.ObjectModel;
     using System.ComponentModel;
+    using System.Linq;
     using System.Windows.Input;
+    using Hoczkiewicz.Audi.CORE;
+    using Hoczkiewicz.Audi.INTERFACES;
     using Hoczkiewicz.Audi.Utils;
     using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
 
@@ -15,7 +18,11 @@ namespace Hoczkiewicz.Audi.ViewModel
         private BL.BL businessLogisticsLayer = new BL.BL();
 
         private ObservableCollection<IAudi> audis;
-        private ICommand saveCommand;
+
+        private IAudi selectedAudi;
+
+        private ICommand addNewCommand;
+        private ICommand removeCommand;
         private bool canExecute;
 
         public MainWindowViewModel()
@@ -47,17 +54,40 @@ namespace Hoczkiewicz.Audi.ViewModel
 
         public BL.BL BusinessLogisticsLayer { get => this.businessLogisticsLayer; set => this.businessLogisticsLayer = value; }
 
-        public ICommand SaveCommand
+        public ICommand AddNewCommand
         {
             get
             {
-                return this.saveCommand ?? (this.saveCommand = new RelayCommand(() => this.SaveAction(), this.canExecute));
+                return this.addNewCommand ?? (this.addNewCommand = new RelayCommand(() => this.AddNewAction(), this.canExecute));
             }
         }
 
-        public void SaveAction()
+        public ICommand RemoveCommand
         {
-            // TODO
+            get
+            {
+                return this.removeCommand ?? (this.removeCommand = new RelayCommand(() => this.RemoveAction(), this.canExecute));
+            }
+        }
+
+        public IAudi SelectedAudi
+        {
+            get => this.selectedAudi; set
+            {
+                this.selectedAudi = value;
+                this.SetPropertyChanged("SelectedAudi");
+            }
+        }
+
+        public void AddNewAction()
+        {
+            IAudi iAudi = new Car(string.Empty, 0, 0, 0, 0);
+            this.Audis.Add(iAudi);
+        }
+
+        public void RemoveAction()
+        {
+            this.Audis.Remove(this.SelectedAudi);
         }
 
         public void SetPropertyChanged(string propertyName)

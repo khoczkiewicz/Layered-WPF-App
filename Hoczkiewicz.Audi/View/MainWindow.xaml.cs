@@ -4,11 +4,8 @@
 
 namespace Hoczkiewicz.Audi
 {
-    using System.Collections.Generic;
     using System.Windows;
     using System.Windows.Controls;
-    using Hoczkiewicz.Audi.BL;
-    using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -18,10 +15,6 @@ namespace Hoczkiewicz.Audi
         public MainWindow()
         {
             this.InitializeComponent();
-        }
-
-        private void AudisList_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
         }
     }
 }
