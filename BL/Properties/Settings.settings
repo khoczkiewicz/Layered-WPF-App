@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="filePath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">DAO.dll</Value>
+      <Value Profile="(Default)">C:\Temp\DAO2.dll</Value>
     </Setting>
   </Settings>
 </SettingsFile>

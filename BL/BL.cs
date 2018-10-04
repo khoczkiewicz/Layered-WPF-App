@@ -6,6 +6,7 @@ namespace Hoczkiewicz.Audi.BL
 {
     using System;
     using System.Collections.Generic;
+    using System.Collections.ObjectModel;
     using System.Reflection;
     using global::BL.Properties;
     using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
@@ -17,7 +18,7 @@ namespace Hoczkiewicz.Audi.BL
 
         public Assembly DAODummy { get => this.dAODummy; set => this.dAODummy = value; }
 
-        public List<IAudi> GetDataBase()
+        public ObservableCollection<IAudi> GetDataBase()
         {
             var types = this.DAODummy.GetTypes();
             Type lateBindingType = null;

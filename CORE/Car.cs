@@ -18,8 +18,9 @@ namespace Hoczkiewicz.Audi.CORE
 
         public override string ToString()
         {
-            // return "Audi " + (Type==""?"A":Type) + Model + " has " + PS + "PS and costs " + Price + " euro.";
-            return "Car";
+            return "Audi " + (this.Type == string.Empty ? "A" : this.Type) + this.Model + " has " + this.PS + "PS and costs " + this.Price + " euro.";
+
+            // return "Car";
         }
     }
 }

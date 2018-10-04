@@ -5,17 +5,18 @@
 namespace Hoczkiewicz.Audi.INTERFACES
 {
     using System.Collections.Generic;
+    using System.Collections.ObjectModel;
 
     public class Interfaces
     {
         public interface IBL
         {
-            List<IAudi> GetDataBase();
+            ObservableCollection<IAudi> GetDataBase();
         }
 
         public interface IDAO
         {
-            List<IAudi> GetAudis();
+            ObservableCollection<IAudi> GetAudis();
         }
 
         public interface IAudi

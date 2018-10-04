@@ -4,9 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hoczkiewicz.Audi"
+        xmlns:viewModel="clr-namespace:Hoczkiewicz.Audi.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="200" Width="600" Name="Window1">
-
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel/>
+    </Window.DataContext>
     <DockPanel>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -14,14 +17,14 @@
                 <ColumnDefinition Width="100*"/>
             </Grid.ColumnDefinitions>
             <ListBox x:Name="AudisList"
-                ItemsSource="{Binding Audis, ElementName=Window1}" SelectionChanged="AudisList_SelectionChanged" Grid.Column="0">
+                 SelectionChanged="AudisList_SelectionChanged" Grid.Column="0" ItemsSource="{Binding Audis}">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock>
                             <TextBlock.Text>
                                 <MultiBinding StringFormat="{}{0}{1}">
-                                    <Binding Path="Type"/>
-                                    <Binding Path="Model"/>
+                                    <Binding  Path="Type"/>
+                                    <Binding  Path="Model"/>
                                 </MultiBinding>
                             </TextBlock.Text>
                         </TextBlock>

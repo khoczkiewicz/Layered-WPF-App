@@ -15,24 +15,10 @@ namespace Hoczkiewicz.Audi
     /// </summary>
     public partial class MainWindow : Window
     {
-        private BL.BL businessLogisticsLayer = new BL.BL();
-
-        // public List<string> auta = new List<string>();
-        private List<IAudi> audis;
-
         public MainWindow()
         {
-            this.Audis = this.BusinessLogisticsLayer.GetDataBase();
             this.InitializeComponent();
         }
-
-        public List<IAudi> Audis
-        {
-            get { return this.audis; }
-            set { this.audis = value; }
-        }
-
-        public BL.BL BusinessLogisticsLayer { get => this.businessLogisticsLayer; set => this.businessLogisticsLayer = value; }
 
         private void AudisList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
