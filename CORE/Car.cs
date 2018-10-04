@@ -7,8 +7,8 @@ namespace Hoczkiewicz.Audi.CORE
     // Opposite to SUV "Car" is kind of limousine or hatchback.
     public class Car : Audi
     {
-        public Car(string type, int model, int ps, int price)
-            : base(type, model, ps, price)
+        public Car(string type, int model, int ps, int price, CarColor color)
+            : base(type, model, ps, price, color)
         {
             if (type == string.Empty)
             {

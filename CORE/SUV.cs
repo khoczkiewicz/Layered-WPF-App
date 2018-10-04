@@ -6,8 +6,8 @@ namespace Hoczkiewicz.Audi.CORE
 {
     public class SUV : Audi
     {
-        public SUV(string type, int model, int ps, int price)
-            : base(type, model, ps, price)
+        public SUV(string type, int model, int ps, int price, CarColor color)
+            : base(type, model, ps, price, color)
         {
             if (type == string.Empty)
             {

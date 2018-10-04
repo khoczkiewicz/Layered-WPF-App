@@ -25,7 +25,7 @@ namespace BL.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("DAO.dll")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../../../DAO/bin/Debug/DAO.dll")]
         public string filePath {
             get {
                 return ((string)(this["filePath"]));

@@ -5,15 +5,16 @@
 namespace Hoczkiewicz.Audi.DAO
 {
     using System.Collections.Generic;
+    using static Hoczkiewicz.Audi.CORE.Audi;
     using static Hoczkiewicz.Audi.INTERFACES.Interfaces;
 
     public class DAOMock : IDAO
     {
         private readonly List<IAudi> audis = new List<IAudi>()
         {
-            new CORE.Car(string.Empty, 8, 268, 314000),
-            new CORE.SUV(string.Empty, 3, 122, 125000),
-            new CORE.SUV("RS", 7, 388, 450000)
+            new CORE.Car(string.Empty, 8, 268, 314000, CarColor.Czarny),
+            new CORE.SUV(string.Empty, 3, 122, 125000, CarColor.Czerwony),
+            new CORE.SUV("RS", 7, 388, 450000, CarColor.Bialy),
         };
 
         public List<IAudi> GetAudis()
